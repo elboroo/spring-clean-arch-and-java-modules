@@ -7,7 +7,7 @@ import pl.training.payments.output.PaymentReader;
 import pl.training.payments.output.PaymentWriter;
 import pl.training.payments.output.TimeProvider;
 
-public interface PaymentFactory {
+public interface AbstractPaymentFactory {
 
     GetPaymentUseCase create(PaymentReader paymentReader);
 
