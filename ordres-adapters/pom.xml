@@ -13,7 +13,7 @@
     </parent>
 
     <groupId>pl.training</groupId>
-    <artifactId>payments-adapters</artifactId>
+    <artifactId>orders-adapters</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -27,7 +27,7 @@
         </dependency>
         <dependency>
             <groupId>pl.training</groupId>
-            <artifactId>payments-ports</artifactId>
+            <artifactId>orders-ports</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

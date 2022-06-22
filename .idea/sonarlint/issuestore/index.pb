@@ -9,16 +9,10 @@ Hpayments-ports/src/main/java/pl/training/payments/model/PageRequest.java,a\e\a
 Ppayments-ports/src/main/java/pl/training/payments/model/PaymentNotException.java,a\a\aa527ab5c231630b3225f57f95bd4b258ea54ec6
 {
 Kpayments-ports/src/main/java/pl/training/payments/output/PaymentReader.java,1\a\1af6edfdf66c618b2d86348d7062762b86b602f3
-{
-Kpayments-ports/src/main/java/pl/training/payments/model/PaymentRequest.java,9\7\97b05b2ef3de5c1aebb90f77b377fc49e0b16f40
 z
 Jpayments-ports/src/main/java/pl/training/payments/model/PaymentStatus.java,5\5\55199f1d396d87b778e91f0d4a5d21b06739dcb2
 {
 Kpayments-ports/src/main/java/pl/training/payments/output/PaymentWriter.java,8\f\8fb21ee2a7ff7486d0cc5afcd625f6ed90b31473
-F
-payments-ports/pom.xml,d\e\de396dfadd7ffebad07917492c4fcc9dde0146eb
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 z
 Jpayments-ports/src/main/java/pl/training/payments/output/TimeProvider.java,c\6\c62035348e1103d45950b03e50d60db244a03d69
 u

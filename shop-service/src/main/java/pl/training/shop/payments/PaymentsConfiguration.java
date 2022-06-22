@@ -2,6 +2,7 @@ package pl.training.shop.payments;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import pl.training.payments.AbstractPaymentFactory;
 import pl.training.payments.PaymentFactory;
 import pl.training.payments.input.GetPaymentUseCase;
 import pl.training.payments.input.ProcessPaymentUseCase;
@@ -13,7 +14,7 @@ import pl.training.payments.output.TimeProvider;
 @Configuration
 public class PaymentsConfiguration {
 
-    private static final PaymentFactory PAYMENT_FACTORY = new PaymentFactory();
+    private static final AbstractPaymentFactory PAYMENT_FACTORY = new PaymentFactory();
 
     @Bean
     public GetPaymentUseCase getPaymentUseCase(PaymentReader paymentReader) {
