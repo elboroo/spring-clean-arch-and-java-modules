@@ -13,12 +13,12 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 @Mapper
-abstract class OrderDomainMapper {
+public abstract class OrderDomainMapper {
 
     @Setter
     private ProductsProvider productsProvider;
 
-    OrderDomain toDomain(Order order) {
+    public OrderDomain toDomain(Order order) {
         return new OrderDomain(order.id(), toDomain(order.entries()));
     }
 

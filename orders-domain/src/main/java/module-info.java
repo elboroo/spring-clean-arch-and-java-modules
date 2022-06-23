@@ -4,4 +4,5 @@ open module pl.training.orders.domain {
     requires org.javamoney.moneta;
     requires static lombok;
     requires static org.mapstruct;
+    requires static org.mapstruct.processor;
 }
