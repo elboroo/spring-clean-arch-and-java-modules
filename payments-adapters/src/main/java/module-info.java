@@ -12,6 +12,7 @@ open module pl.training.payments.adapters {
     requires spring.beans;
     requires spring.web;
     requires spring.webmvc;
+    requires spring.jdbc;
     requires spring.boot.starter.web;
     requires spring.data.jpa;
     requires spring.data.commons;
@@ -22,4 +23,5 @@ open module pl.training.payments.adapters {
     requires static lombok;
     requires static org.mapstruct;
     requires static org.mapstruct.processor;
+    requires spring.tx;
 }

@@ -76,11 +76,7 @@ Zpayments-adapters/src/main/java/pl/training/payments/adapters/output/id/UuidGen
 \payments-adapters/src/main/java/pl/training/payments/adapters/commons/web/ResultPageDto.java,5\b\5b6ea35cfd6b13a123d349d248387176837bb706
 Š
 Zpayments-adapters/src/main/java/pl/training/payments/adapters/commons/web/LocationUri.java,9\e\9ed12681850e91e8424fd268054d1aacc6476f59
-z
-Jpayments-ports/src/main/java/pl/training/payments/ports/model/Payment.java,9\2\9266b34e417c364a59cbc84c4448c20405db977a
 ]
 -payments-ports/src/main/java/module-info.java,c\d\cd8471cd5fad0cee7f3fe9c70641bf69cd417c73
-}
-Mpayments-ports/src/main/java/pl/training/payments/ports/model/ResultPage.java,2\b\2be6a9a6db5e8700cb41a2c6d8edaf645160bfd1
 
 Qpayments-ports/src/main/java/pl/training/payments/ports/model/PaymentRequest.java,1\a\1a61e3a360d76105431d944c01edd17ff7bcc4b3
