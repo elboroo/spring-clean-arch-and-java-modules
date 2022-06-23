@@ -7,6 +7,7 @@ module pl.training.payments.adapters {
 
     requires pl.training.payments.ports;
     requires spring.context;
+    requires spring.core;
     requires spring.beans;
     requires spring.web;
     requires spring.webmvc;

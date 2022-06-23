@@ -14,7 +14,7 @@ class GetPaymentService implements GetPaymentUseCase {
     @Override
     public Payment getById(String id) {
         return paymentReader.getById(id)
-                .orElseThrow(PaymentNotException::new);
+                .orElseThrow(PaymentNotFoundException::new);
     }
 
     @Override

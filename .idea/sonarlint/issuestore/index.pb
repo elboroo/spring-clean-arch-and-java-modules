@@ -18,8 +18,6 @@ Morders-ports/src/main/java/pl/training/orders/ports/AbstractOrderFactory.java,
 Spayments-ports/src/main/java/pl/training/payments/ports/AbstractPaymentFactory.java,7\e\7e427fbd8287a6cb0a24ae75d50a8af9e3f12081
 “
 cordres-adapters/src/main/java/pl/training/orders/adapters/output/prodcuts/FakeProductsProvider.java,9\8\98d1632e27805ea35123f25cc3617266e74d956e
-€
-Ppayments-domain/src/main/java/pl/training/payments/domain/GetPaymentService.java,a\a\aab5404b05f5627f5a3e27dd3fe76837bc1e1e4d
 „
 Tpayments-ports/src/main/java/pl/training/payments/ports/input/GetPaymentUseCase.java,6\c\6cab959c5db724daa8c3bb71677d3481f1d0d302
 
@@ -98,8 +96,6 @@ l
 ,orders-domain/src/main/java/module-info.java,b\8\b865627f1e899ff00638941dafd1093bae13542d
 Š
 Zpayments-adapters/src/main/java/pl/training/payments/adapters/commons/web/LocationUri.java,9\e\9ed12681850e91e8424fd268054d1aacc6476f59
-E
-orders-domain/pom.xml,1\b\1b7becac9b4d55dafeca9a517125cf506dfaa908
 z
 Jpayments-ports/src/main/java/pl/training/payments/ports/model/Payment.java,9\2\9266b34e417c364a59cbc84c4448c20405db977a
 ]
