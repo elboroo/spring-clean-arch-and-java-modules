@@ -1,5 +1,6 @@
-open module pl.training.orders.domain {
+module pl.training.orders.domain {
     exports pl.training.orders.adapters;
+
     requires pl.training.orders.ports;
     requires org.javamoney.moneta;
     requires static lombok;

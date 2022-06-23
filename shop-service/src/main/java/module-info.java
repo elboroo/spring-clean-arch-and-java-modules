@@ -8,9 +8,7 @@ open module pl.trainig.shop.service {
     requires transitive pl.training.orders.ports;
 
     requires spring.boot;
-    requires spring.context;
-    requires spring.core;
+    requires spring.boot.autoconfigure;
     requires static lombok;
     requires java.logging;
-    requires spring.boot.autoconfigure;
 }
