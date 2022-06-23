@@ -2,12 +2,13 @@ package pl.training.payments.adapters.input.rest;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import pl.training.payments.adapters.commons.web.LocationUri;
+import org.springframework.web.bind.annotation.*;
+import pl.training.payments.adapters.commons.web.ResultPageDto;
 import pl.training.payments.ports.input.GetPaymentUseCase;
+import pl.training.payments.ports.model.PageRequest;
+import pl.training.payments.ports.model.PaymentStatus;
+
+import static pl.training.payments.ports.model.PaymentStatus.STARTED;
 
 @RequestMapping("api/payments")
 @RestController
@@ -21,8 +22,16 @@ public class GetPaymentUseCaseRestController {
     public ResponseEntity<PaymentDto> getById(@PathVariable String id) {
         var payment = getPaymentUseCase.getById(id);
         var paymentDto = mapper.toDto(payment);
-        var locationUri = LocationUri.fromRequest(payment.id());
-        return ResponseEntity.created(locationUri).body(paymentDto);
+        return ResponseEntity.ok(paymentDto);
+    }
+
+    @GetMapping("started")
+    public ResponseEntity<ResultPageDto<PaymentDto>> getStartedPayments(
+            @RequestParam(required = false, defaultValue = "0") int pageNumber,
+            @RequestParam(required = false, defaultValue = "10") int pageSize) {
+        var resultPage = getPaymentUseCase.getByStatus(STARTED, new PageRequest(pageNumber, pageSize));
+        var resultPageDto = mapper.toDto(resultPage);
+        return ResponseEntity.ok(resultPageDto);
     }
 
 }

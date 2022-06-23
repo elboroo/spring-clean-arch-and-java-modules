@@ -1,4 +1,4 @@
-module pl.training.payments.adapters {
+open module pl.training.payments.adapters {
     exports pl.training.payments.adapters.input.rest;
     exports pl.training.payments.adapters.output.id;
     exports pl.training.payments.adapters.output.persistence;
@@ -11,6 +11,10 @@ module pl.training.payments.adapters {
     requires spring.beans;
     requires spring.web;
     requires spring.webmvc;
+    requires spring.boot.starter.web;
+    requires spring.data.jpa;
+    requires spring.data.commons;
+    requires spring.boot.starter.data.jpa;
     requires static lombok;
     requires static org.mapstruct;
     requires static org.mapstruct.processor;

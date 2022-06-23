@@ -1,3 +1,20 @@
-GET http://localhost:8080/api/payments/2
+POST http://localhost:8080/api/payments
+Accept: application/json
+Content-Type: application/json
+
+{
+  "requestId": 1,
+  "value": "200 PLN"
+}
+
+###
+
+GET http://localhost:8080/api/payments/40d01c03-4fde-42ae-a1e4-91cac700a4cc
+Accept: application/json
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/api/payments/started
 Accept: application/json
 Content-Type: application/json

@@ -6,12 +6,6 @@ D
 orders-ports/pom.xml,2\5\258750f0bca4a2e24e99cdf1e2923514f5555da0
 G
 ordres-adapters/pom.xml,1\d\1d65f4fd8ddda1ffe44414e9ca52bb8021d6ef65
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-G
-payments-domain/pom.xml,b\4\b4ee8eb4f917c78a46554bdd09f28c51c4f87070
-D
-shop-service/pom.xml,2\4\241a8fe9ca9eb39692fde7b02f429e562a7d1051
 }
 Morders-ports/src/main/java/pl/training/orders/ports/AbstractOrderFactory.java,8\6\86c088e859127bcd3c964570fb1d75320aa4c52b
 É
@@ -22,8 +16,6 @@ cordres-adapters/src/main/java/pl/training/orders/adapters/output/prodcuts/FakeP
 Tpayments-ports/src/main/java/pl/training/payments/ports/input/GetPaymentUseCase.java,6\c\6cab959c5db724daa8c3bb71677d3481f1d0d302
 
 Opayments-ports/src/main/java/pl/training/payments/ports/output/IdGenerator.java,f\9\f9232c550f6272f406b70317ea2c3d85ae9662ef
-ü
-opayments-adapters/src/main/java/pl/training/payments/adapters/output/persistence/InMemoryPaymentRepository.java,6\3\6386d0c9b54f014898c4c4f7776d35440b1c8513
 t
 Dorders-ports/src/main/java/pl/training/orders/ports/model/Order.java,9\8\984ba1ee5b9bbe29bce94315086860390468fbcf
 v
@@ -32,8 +24,6 @@ Forders-ports/src/main/java/pl/training/orders/ports/model/Payment.java,1\5\15f
 Vpayments-ports/src/main/java/pl/training/payments/ports/model/PaymentNotException.java,c\1\c15d2b197767299139f33c28b0f1281bd96145dd
 Å
 Qpayments-ports/src/main/java/pl/training/payments/ports/output/PaymentReader.java,8\b\8babcc24ba77b3f1c167ee62487804891ccf2cf5
-
-Oshop-service/src/main/java/pl/training/shop/payments/PaymentsConfiguration.java,1\4\14ed8999e461f117ceb05bbf73bf9ee949243eca
 ~
 Norders-ports/src/main/java/pl/training/orders/ports/output/PaymentService.java,5\a\5a15988c52384d0cce8b2ddc26be7b05a873dab7
 }
@@ -54,8 +44,6 @@ v
 Forders-ports/src/main/java/pl/training/orders/ports/model/Product.java,9\8\988f21f32806944d44054d34ded893d2857287f1
 Ä
 Porders-ports/src/main/java/pl/training/orders/ports/output/ProductsProvider.java,7\4\7406a98c64d6d87fcd7ade486bea5b10c5191011
-g
-7shop-service/src/main/java/pl/training/shop/Runner.java,5\6\563d2863f0e08c57ffaf561b1dc0072396044e0c
 ë
 apayments-adapters/src/main/java/pl/training/payments/adapters/output/time/SystemTimeProvider.java,6\b\6b51164b687ba3483027ef360a51c513e973597a
 Ä
@@ -82,18 +70,10 @@ Lpayments-domain/src/main/java/pl/training/payments/domain/FeeCalculator.java,b
 Zpayments-adapters/src/main/java/pl/training/payments/adapters/output/id/UuidGenerator.java,8\d\8d175e7cac5836fa771ad7682accacbad1ae816f
 [
 +orders-ports/src/main/java/module-info.java,0\d\0debf06ae755e5ccaa6e5663d8e1ac230747a129
-l
-<shop-service/src/main/java/pl/training/shop/Application.java,3\7\378c0ace5fde4cf06628aa4a8c5f1267945c3c34
 ^
 .ordres-adapters/src/main/java/module-info.java,4\a\4a313022b98738e6bcf3520ce0206968b945d489
-[
-+shop-service/src/main/java/module-info.java,4\b\4b1c8137794242f8a028a36e02e091797f40271c
 å
 \payments-adapters/src/main/java/pl/training/payments/adapters/commons/web/ResultPageDto.java,5\b\5b6ea35cfd6b13a123d349d248387176837bb706
-8
-notes.md,1\2\12dfac2a0a81c21d55e8f3199f9839a60649ecdf
-\
-,orders-domain/src/main/java/module-info.java,b\8\b865627f1e899ff00638941dafd1093bae13542d
 ä
 Zpayments-adapters/src/main/java/pl/training/payments/adapters/commons/web/LocationUri.java,9\e\9ed12681850e91e8424fd268054d1aacc6476f59
 z
@@ -104,7 +84,3 @@ Jpayments-ports/src/main/java/pl/training/payments/ports/model/Payment.java,9\2
 Mpayments-ports/src/main/java/pl/training/payments/ports/model/ResultPage.java,2\b\2be6a9a6db5e8700cb41a2c6d8edaf645160bfd1
 Å
 Qpayments-ports/src/main/java/pl/training/payments/ports/model/PaymentRequest.java,1\a\1a61e3a360d76105431d944c01edd17ff7bcc4b3
-~
-Npayments-ports/src/main/java/pl/training/payments/ports/model/PageRequest.java,4\a\4ab3eac16ceb04b03f6ccb2710c19643fcb65ed8
-^
-.payments-domain/src/main/java/module-info.java,c\d\cd43164329a483016942e9c08cac94cb3dcbf3c7
