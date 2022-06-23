@@ -18,3 +18,5 @@ https://www.baeldung.com/java-9-modularity
 
 run parameters: --add-reads pl.trainig.shop.service=ALL-UNNAMED
 
+### JPA
+https://vladmihalcea.com/the-best-way-to-implement-equals-hashcode-and-tostring-with-jpa-and-hibernate
