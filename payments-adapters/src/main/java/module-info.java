@@ -5,5 +5,7 @@ module pl.training.payments.adapters {
 
     requires pl.training.payments.ports;
     requires spring.context;
+    requires spring.web;
+    requires spring.webmvc;
     requires static lombok;
 }
