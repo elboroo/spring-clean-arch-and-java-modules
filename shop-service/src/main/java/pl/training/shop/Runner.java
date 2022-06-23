@@ -5,12 +5,12 @@ import lombok.extern.java.Log;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
-import pl.training.orders.input.PlaceOrderUseCase;
-import pl.training.orders.model.Order;
-import pl.training.payments.input.GetPaymentUseCase;
-import pl.training.payments.input.ProcessPaymentUseCase;
-import pl.training.payments.model.Money;
-import pl.training.payments.model.PaymentRequest;
+import pl.training.orders.ports.input.PlaceOrderUseCase;
+import pl.training.orders.ports.model.Order;
+import pl.training.payments.ports.input.GetPaymentUseCase;
+import pl.training.payments.ports.input.ProcessPaymentUseCase;
+import pl.training.payments.ports.model.Money;
+import pl.training.payments.ports.model.PaymentRequest;
 
 import java.math.BigDecimal;
 import java.util.Currency;

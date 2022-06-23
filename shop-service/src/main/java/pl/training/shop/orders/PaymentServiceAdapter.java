@@ -2,11 +2,11 @@ package pl.training.shop.orders;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import pl.training.orders.model.Payment;
-import pl.training.orders.output.PaymentService;
-import pl.training.payments.input.ProcessPaymentUseCase;
-import pl.training.payments.model.Money;
-import pl.training.payments.model.PaymentRequest;
+import pl.training.orders.ports.model.Payment;
+import pl.training.orders.ports.output.PaymentService;
+import pl.training.payments.ports.input.ProcessPaymentUseCase;
+import pl.training.payments.ports.model.Money;
+import pl.training.payments.ports.model.PaymentRequest;
 
 import java.math.BigDecimal;
 import java.util.Currency;

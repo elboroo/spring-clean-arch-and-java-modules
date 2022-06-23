@@ -2,11 +2,11 @@ package pl.training.shop.orders;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import pl.training.orders.AbstractOrderFactory;
-import pl.training.orders.OrderFactory;
-import pl.training.orders.input.PlaceOrderUseCase;
-import pl.training.orders.output.PaymentService;
-import pl.training.orders.output.ProductsProvider;
+import pl.training.orders.ports.AbstractOrderFactory;
+import pl.training.orders.adapters.OrderFactory;
+import pl.training.orders.ports.input.PlaceOrderUseCase;
+import pl.training.orders.ports.output.PaymentService;
+import pl.training.orders.ports.output.ProductsProvider;
 
 @Configuration
 public class OrdersConfiguration {
